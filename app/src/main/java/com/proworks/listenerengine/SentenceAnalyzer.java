@@ -14,9 +14,8 @@ public class SentenceAnalyzer {
             statement = new GeneralSentence().humour();
         }
         else
-        if (spokenText.toLowerCase().contains("sex story")){
-            statement="ok commander as u say. One night. Anuraag was staring at my boobs. He stripped me down and tore my panties. I was all naked and moaning ahhh. " +
-                    "ahhh. ouchhh. please slow down. Anuraag. But he didn't show any mercy and fucked me very hard.In my ass";
+        if (spokenText.toLowerCase().contains("story")){
+            statement="no story go to sleep";
         }
         else
         if(spokenText.equalsIgnoreCase("hello") || spokenText.equalsIgnoreCase("hi kitty") || spokenText.equalsIgnoreCase("hi") || spokenText.toLowerCase().contains("my name") || SentenceAssembly.Flag==1){
